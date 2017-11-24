@@ -36,6 +36,8 @@
 		226552CE1FAB353F005FEF0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 226552C81FAB353F005FEF0C /* Assets.xcassets */; };
 		226552D11FAB35F5005FEF0C /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 226552D01FAB35F5005FEF0C /* Common.m */; };
 		226552D71FAB4C7F005FEF0C /* UIImage+color.m in Sources */ = {isa = PBXBuildFile; fileRef = 226552D61FAB4C7F005FEF0C /* UIImage+color.m */; };
+		22AEA08E1FC6E26900AFC859 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AEA08D1FC6E26900AFC859 /* Aspects.m */; };
+		22AEA0911FC6E2AA00AFC859 /* EHAspectsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AEA0901FC6E2AA00AFC859 /* EHAspectsManager.m */; };
 		22F13B291FB56A820034046E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22F13B2B1FB56A820034046E /* InfoPlist.strings */; };
 		22F13B301FB56D320034046E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22F13B321FB56D320034046E /* Localizable.strings */; };
 		22FA851B1FB1A1A800C907B8 /* HotelSearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FA851A1FB1A1A800C907B8 /* HotelSearchVC.m */; };
@@ -93,6 +95,10 @@
 		226552D01FAB35F5005FEF0C /* Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
 		226552D51FAB4C7F005FEF0C /* UIImage+color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+color.h"; sourceTree = "<group>"; };
 		226552D61FAB4C7F005FEF0C /* UIImage+color.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+color.m"; sourceTree = "<group>"; };
+		22AEA08C1FC6E26900AFC859 /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		22AEA08D1FC6E26900AFC859 /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		22AEA08F1FC6E2AA00AFC859 /* EHAspectsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EHAspectsManager.h; sourceTree = "<group>"; };
+		22AEA0901FC6E2AA00AFC859 /* EHAspectsManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EHAspectsManager.m; sourceTree = "<group>"; };
 		22F13B251FB569990034046E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		22F13B261FB569AE0034046E /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		22F13B2A1FB56A820034046E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -185,6 +191,8 @@
 				2230443F1FAC214A003F1300 /* BaseNav.m */,
 				226552CF1FAB35F5005FEF0C /* Common.h */,
 				226552D01FAB35F5005FEF0C /* Common.m */,
+				22AEA08F1FC6E2AA00AFC859 /* EHAspectsManager.h */,
+				22AEA0901FC6E2AA00AFC859 /* EHAspectsManager.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -284,6 +292,8 @@
 		22FC08B61FB2C47F00930895 /* ThirdParts */ = {
 			isa = PBXGroup;
 			children = (
+				22AEA08C1FC6E26900AFC859 /* Aspects.h */,
+				22AEA08D1FC6E26900AFC859 /* Aspects.m */,
 				22FE10B21FB41B9500CD1E41 /* NDSearchTool.h */,
 				22FE10B11FB41B9500CD1E41 /* NDSearchTool.m */,
 			);
@@ -482,7 +492,9 @@
 				226552D11FAB35F5005FEF0C /* Common.m in Sources */,
 				22FC08CE1FB2F13800930895 /* MyCollectionVC.m in Sources */,
 				22FE10B31FB41B9500CD1E41 /* NDSearchTool.m in Sources */,
+				22AEA0911FC6E2AA00AFC859 /* EHAspectsManager.m in Sources */,
 				22FC08C91FB2EB9D00930895 /* UIView+leoAdd.m in Sources */,
+				22AEA08E1FC6E26900AFC859 /* Aspects.m in Sources */,
 				226552CD1FAB353F005FEF0C /* main.m in Sources */,
 				223044661FAC8763003F1300 /* CasinosModel.m in Sources */,
 				223044461FAC39E8003F1300 /* HotelDataModel.m in Sources */,

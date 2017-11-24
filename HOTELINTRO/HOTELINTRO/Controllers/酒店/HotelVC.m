@@ -60,6 +60,10 @@ static NSString *InformationCellID = @"InformationCellID";
     [kNotificationCenter addObserver:self selector:@selector(logouted) name:kLogoutNoti object:nil];
     
 }
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    NSLog(@"检测有没有实现！！");
+}
 - (void)loginDefault{
     
     NSString *userName = [kUserDefault stringForKey:kUserNameKey];

@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "Common.h"
-
+#import "EHAspectsManager.h"
 //#import "PSDrawerManager.h"
 //#import "TabBarVC.h"
 //#import "LeftView.h"
@@ -26,7 +26,7 @@
     [self initStyle];
     [COM showMainWindow];
     
-    
+    [EHAspectsManager trackAspectHooks];
     
     
 //    LeftView *leftView = [[LeftView alloc] initWithFrame:CGRectMake(-self.window.bounds.size.width * (1 - 0.75), 0, self.window.bounds.size.width, self.window.bounds.size.height)];

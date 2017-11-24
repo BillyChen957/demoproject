@@ -10,4 +10,6 @@
 
 @interface EHAspectsManager : NSObject
 
++ (void)trackAspectHooks;
+
 @end
